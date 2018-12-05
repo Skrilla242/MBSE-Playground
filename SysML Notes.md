@@ -25,7 +25,12 @@
 
 #### State Diagram
 - describes state-dependent behavior of a block throughout it's lifecycle
-- 
+- State machines can be called by an Activiy and referenced by a lifeline
+- Owned by blocks normally
+- state machine is specified by a set of regions, each of which defines a State
+- behaviors can be optionally excuted at entry and exit of a State
+- change of state is affected by transitions; connects source state to a target State
+- Transitions are defined by triggers, guards, and effets
 
 
 #### Paramentric Diagram
